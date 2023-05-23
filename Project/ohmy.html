@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(onesongs.png);
+          /* background-position-y: 35px; */
+      }
+  </style>
+	<title>Oh My My</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="OneRepublic/Oh My My1.jpg" style="box-shadow: 8px 8px 12px rgb(255, 255, 255);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(255, 255, 255, 0.823); font-size: 50px;">OH MY MY</p>
+      <p style="margin-top: 30px;">8 Songs 28 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Let's Hurt Tonight</div>03:14
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Let's Hurt Tonight">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:14">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Kids</div>03:58
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Kids">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:58">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Better</div>03:24
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Better">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:24">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Born</div>04:25
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Born">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="04:25">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Wherever I Go</div>02:49
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wherever I Go">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="02:49">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Choke</div>03:46
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Choke">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:46">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Human</div>03:40
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Human">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:40">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">8. All These Things</div>03:19
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="All These Things">
+          <input type="hidden" name="album_name" value="Oh My My">
+          <input type="hidden" name="duration" value="03:19">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

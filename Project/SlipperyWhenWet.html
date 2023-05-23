@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+        body {
+            background-image: url(BONbg.jpg);
+        }
+    </style>
+	<title>Slippery When Wet</title> 
+</head>
+<body>
+    
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Bon Jovi/slippery.jpg" style="box-shadow: 8px 8px 12px rgba(223, 234, 234, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(244, 246, 246, 0.823); font-size: 50px;">SLIPPERY WHEN WET</p>
+      <p style="margin-top: 30px;">7 Songs 31 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+
+      <div class="song">
+        <div class="mysongs">1. Let It Rock</div>05:26
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Let It Rock">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="05:26">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. You Give Love a Bad Name</div>03:43
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="You Give Love a Bad Name">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="03:43">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Livin' on a Prayer</div>04:11
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Livin' on a Prayer">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="04:11">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Without Love</div>04:31
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Without Love">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="04:31">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Wild in the Streets</div>03:56
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wild in the Streets">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="03:56">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Never Say Goodbye</div>04:49
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Never Say Goodbye">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="04:49">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. I'd Die for You</div>04:31
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="I'd Die for You">
+          <input type="hidden" name="album_name" value="Slippery When Wet">
+          <input type="hidden" name="duration" value="04:31">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

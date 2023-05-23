@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(linkinsongs.png);
+          background-position-y: 50px;
+      }
+  </style>
+	<title>Living Things</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Linkin Park/Living Things1.jpg" style="box-shadow: 8px 8px 12px rgb(92, 92, 94);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(255, 255, 255, 0.823); font-size: 50px;">LIVING THINGS</p>
+      <p style="margin-top: 30px;">8 Songs 26 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Until It Breaks</div>03:43
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Until it Breaks">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="03:43">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Tinfoil</div>01:12
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Tinfoil">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="01:12">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Victimized</div>01:46
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Victimized">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="01:46">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Burn It Down</div>03:50
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Burn It Down">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="03:50">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Roads Untraveled</div>03:50
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Roads Untraveled">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="03:50">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Lost In The Echo</div>03:26
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Lost In The Echo">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="03:26">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. In My Remains</div>03:21
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="In My Remains">
+          <input type="hidden" name="album_name" value="Living Things">
+          <input type="hidden" name="duration" value="03:21">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(imaginesongs.png);
+          background-position-y: 35px;
+      }
+  </style>
+	<title>Night Visions</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Imagine Dragons/Night visions1.jpg" style="box-shadow: 8px 8px 12px rgba(90, 15, 104, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(206, 165, 107, 0.823); font-size: 50px;">NIGHT VISIONS</p>
+      <p style="margin-top: 30px;">7 Songs 23 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Hear Me</div>03:55
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Hear Me">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="03:55">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Underdog</div>03:29
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Underdog">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="03:29">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. The River</div>03:25
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="The River">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="03:25">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. It's Time</div>04:00
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="It's Time">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="04:00">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. America</div>04:33
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="America">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="04:33">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Bleeding Out</div>03:43
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Bleeding Out">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="03:43">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Round And Round</div>03:18
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Round And Round">
+          <input type="hidden" name="album_name" value="Night Visions">
+          <input type="hidden" name="duration" value="03:18">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(imaginesongs.png);
+          background-position-y: 35px;
+      }
+  </style>
+	<title>Mercury Act-1</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Imagine Dragons/Mercury Act I 1.jpg" style="box-shadow: 8px 8px 12px rgba(224, 192, 66, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(224, 192, 66, 0.823); font-size: 50px;">MERCURY ACT I</p>
+      <p style="margin-top: 30px;">8 Songs 26 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. #1</div>03:25
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="#1">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="03:25">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Wrecked</div>04:04
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wrecked">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="04:04">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Easy Come Easy Go</div>03:00
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Easy Come Easy Go">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="03:00">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Giants</div>03:30
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Giants">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="03:30">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Monday</div>03:08
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Monday">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="03:08">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Lonely</div>02:40
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Lonely">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="02:40">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Cutthroat</div>02:50
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Cutthroat">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="02:50">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">8. No Time For Toxic People</div>03:28
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="No Time For Toxic People">
+          <input type="hidden" name="album_name" value="Mercury Act I">
+          <input type="hidden" name="duration" value="03:28">
+          <input type="hidden" name="artist" value="Imagine Dragons">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

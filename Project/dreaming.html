@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(onesongs.png);
+          /* background-position-y: 35px; */
+      }
+  </style>
+	<title>Dreaming Out Loud</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="OneRepublic/Dreaming Out Loud1.png" style="box-shadow: 8px 8px 12px rgba(55, 33, 227, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(28, 0, 239, 0.823); font-size: 50px;">DREAMING OUT LOUD</p>
+      <p style="margin-top: 30px;">7 Songs 31 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Mercy</div>04:00
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Mercy">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="04:00">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Apologize</div>03:28
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Apologize">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="03:28">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Tyrant</div>05:03
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Tyrant">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="05:03">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Won't Stop</div>05:03
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Won't Stop">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="05:03">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. All We Are</div>04:28
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="All We Are">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="04:28">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Come Home</div>04:23
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Come Home">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="04:23">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Say (All I Need)</div>03:50
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Say (All I Need)">
+          <input type="hidden" name="album_name" value="Dreaming Out Loud">
+          <input type="hidden" name="duration" value="03:50">
+          <input type="hidden" name="artist" value="OneRepublic">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

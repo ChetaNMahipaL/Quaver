@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="searchstyle.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img class="logo-img" src="logo.png" width="65" height="65" alt="align box" align="center">   
+          Quaver
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="index.html#">Home</a>
+          </li>
+          <li>
+            <a href="artist.html#">Artists</a>
+          </li>
+          <li>
+            <a href="search.html" class="element">Search</a>
+          </li>
+          <li>
+            <a href="spotlight.html">Artist Spotlight</a>
+          </li>
+          <li>
+            <a href="playlistpage.html">Playlist</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container2">
+      <form method="get" action="search-results.html">
+        <div class="search-bar-container">
+          <input type="text" id="search-bar" name="q" placeholder="Search..." style="font-size: 1em;">
+          <button type="submit" id="search-button"><div style="display: inline-block; font-size: 18px;">Search</div><i class="fas fa-search" style="font-size: 1.2em;"></i></button>
+        </div>
+        <div class="filters-container">
+          <label class="filter-label" for="duration-filter" >Duration:</label>
+          <input type="number" class="filter-input" id="duration-filter" name="duration" min="1" max="60" placeholder="" style="width: 10em;">
+          <label class="filter-label" for="explicit-filter">Explicit:</label>
+          <select class="filter-select" id="explicit-filter" style="font-size: 18px; border-radius: 5px;">
+            <option value=""><div style="display: inline-block; font-size: 10px;">All</div></option>
+            <option value="true">Explicit only</option>
+            <option value="false">Not explicit</option>
+          </select>
+          <button type="button" class="clear-filters-button"><div style="display: inline-block; font-size: 15px; color: rgb(0, 0, 0);">Clear Filters</div></button>
+        </div>
+      </form>
+    </div> 
+    
+    
+
+    <div id="results">
+      <div class="result">
+        <div class="album-img">
+        </div>
+        <div class="song-artist">
+          <p class="name"></p>
+          <p class="artist"></p>
+        </div>
+        <div class="album-info">
+          <p class="album-name"></p>
+          <p class="date-added"></p>
+        </div>
+        <div class="audio">
+          <audio controls></audio>
+        </div>
+      </div>
+    </div>
+  
+    <footer>
+      <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+    </footer>
+    <script src="scriptsongs.js"></script>
+  </body>
+</html>

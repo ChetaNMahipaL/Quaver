@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+        body {
+            background-image: url(maroon5bg.png);
+        }
+    </style>
+	<title>It Won't Be Soon Before Long</title> 
+</head>
+<body>
+    
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Maroon 5/it.png" style="box-shadow: 8px 8px 12px rgba(255, 255, 255, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(157, 144, 144, 0.823); font-size: 50px;">IT WON'T BE SOON BEFORE LONG</p>
+      <p style="margin-top: 30px;">7 Songs 25 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+
+      <div class="song">
+        <div class="mysongs">1. Makes Me Wonder</div>03:31
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Makes Me Wonder">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="03:31">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Wake Up Call</div>03:20
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wake Up Call">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="03:20">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Won't Go Home Without You</div>03:51
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Won't Go Home Without You">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="03:51">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. If I Never See Your Face Again</div>03:21
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="If I never See Your Face Again">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="03:21">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Goodnight Goodnight</div>04:03
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Goodnight Goodnight">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="04:03">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Not Falling Apart</div>04:06
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Not Falling Apart">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="04:06">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Nothing Lasts Forever</div>03:07
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Nothing Lasts Forever">
+          <input type="hidden" name="album_name" value="It Won't Be Soon Before Long">
+          <input type="hidden" name="duration" value="03:07">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+      
+      
+      
+      
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

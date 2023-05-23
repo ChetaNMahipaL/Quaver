@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+        body {
+            background-image: url(maroon5bg.png);
+        }
+    </style>
+	<title>V</title> 
+</head>
+<body>
+    
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Maroon 5/vvv.png" style="box-shadow: 8px 8px 12px rgba(61, 144, 183, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(255, 0, 0, 0.823); font-size: 50px;">V</p>
+      <p style="margin-top: 30px;">8 Songs 29 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+
+      <div class="song">
+        <div class="mysongs">1. Maps</div>03:10
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Maps">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:10">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Animals</div>03:51
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Animals">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:51">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Sugar</div>03:55
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Sugar">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:55">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Feelings</div>03:14
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Feelings">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:14">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. This Summer's Gonna Hurt like a Motherfucker</div>03:44
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="This Summer's Gonna Hurt like a Motherfucker">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:44">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Unkiss Me</div>03:58
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Unkiss Me">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="03:58">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Lost Stars</div>04:27
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Lost Stars">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="04:27">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">8. Sex and Candy</div>04:25
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Sex and Candy">
+          <input type="hidden" name="album_name" value="V">
+          <input type="hidden" name="duration" value="04:25">
+          <input type="hidden" name="artist" value="Maroon 5">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+      
+      
+      
+      
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

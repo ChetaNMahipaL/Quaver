@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+        body {
+            background-image: url(BONbg.jpg);
+        }
+    </style>
+	<title>These Days</title> 
+</head>
+<body>
+    
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Bon Jovi/these.jpg" style="box-shadow: 8px 8px 12px rgba(234, 232, 223, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(245, 173, 5, 0.823); font-size: 50px;">THESE DAYS</p>
+      <p style="margin-top: 30px;">7 Songs 37 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+
+      <div class="song">
+        <div class="mysongs">1. These Days</div>06:26
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="These Days">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="06:26">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Something for The Pain</div>04:46
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Something for the Pain">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="04:46">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Lie To Me</div>05:34
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Lie To Me">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="05:34">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Hey God</div>06:03
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Hey God">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="06:03">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. This Ain't a Love Song</div>05:06
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="This Ain't a Love Song">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="05:06">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Damned</div>04:35
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Damned">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="04:35">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. My Guitar Lies Bleeding in My Arms</div>05:42
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="My Guitar Lied Bleeding in My Arms">
+          <input type="hidden" name="album_name" value="These Days">
+          <input type="hidden" name="duration" value="05:42">
+          <input type="hidden" name="artist" value="Bon Jovi">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+      
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="spotlight.css" />
+	<title>Spotlight</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html" class="element"> Artist Spotlight </a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+
+  <div class="container2">
+    <img src="spotlight.png" alt="spotlight" height="1000px">
+    <div class="text">
+  <h1><strong>Artist<p>Spotlight</p></strong></h1>
+  </div>
+  </div>
+  
+  <hr  style="opacity: 0.2; margin-left: 130px; margin-right: 130px;">
+  <br><br><br>
+
+  <div class="favourite_artist">
+  
+  <img src="Ed Shreen/topartist1.png"  id="zoomImage" class="picture">
+  
+  
+  <div class="info">
+
+<h1 style="font-size: 54px; text-align: left;">Ed Sheeran</h1>
+
+    Ed Sheeran is a British singer-songwriter born on February 17, 1991, in Halifax, West Yorkshire, England.
+
+He began playing guitar at a young age and started writing songs while still in high school.
+
+Sheeran moved to London in 2008 to pursue a music career and started performing in small venues around the city.
+
+He gained popularity through social media and released his debut album "+ (Plus)" in 2011, which included hit singles like "The A Team" and "Lego House."
+
+His second album "x (Multiply)" was released in 2014 and included chart-topping hits like "Sing," "Thinking Out Loud," and "Photograph."
+
+In 2017, Sheeran released his third album "÷ (Divide)," which became the fastest-selling album by a male solo artist in the UK.
+
+He has won multiple awards throughout his career, including four Grammy Awards, six Brit Awards, and an Ivor Novello Award.
+
+Sheeran has also collaborated with several popular artists such as Taylor Swift, Justin Bieber, and Beyonce.
+
+He has sold over 150 million records worldwide, making him one of the best-selling music artists of all time.
+
+In 2021, Sheeran released his fourth album "Equals," which includes hit singles like "Bad Habits" and "Shivers."
+  </div>
+  </div>
+
+<hr  style="opacity: 0.2; margin-left: 130px; margin-right: 130px;">
+<br><br>
+
+<div class="countdown">
+    <img src="Ed Shreen/minussong.png" class="minus">
+    NEW ALBUM <div style="color: rgb(255, 255, 57);display: inline-block;">SUBTRACT</div> coming soon . . . 
+    <p id="countdown"></p>
+  </div>
+  <br><br>
+  <hr  style="opacity: 0.2; margin-left: 130px; margin-right: 130px;">
+
+<h1 style="font-size: 54px; text-align: left; margin-top: 30px; margin-left: 150px; margin-top: 55px;">Reviews</h1>
+<form class="form">
+  <label for="name">Enter your Name:</label>
+  <input type="text" id="name" name="name" style="font-size: 0.8em; border-radius: 7px;"><br><br>
+  <label for="rating">Rating:</label>
+  <div class="rating">
+  <input type="radio" id="rating1" name="rating" value="1">
+  <label for="rating1">&starf;</label><br>
+  <input type="radio" id="rating2" name="rating" value="2">
+  <label for="rating2">&starf;&starf;</label><br>
+  <input type="radio" id="rating3" name="rating" value="3">
+  <label for="rating3">&starf;&starf;&starf;</label><br>
+  <input type="radio" id="rating4" name="rating" value="4">
+  <label for="rating4">&starf;&starf;&starf;&starf;</label><br>
+  <input type="radio" id="rating5" name="rating" value="5">
+  <label for="rating5">&starf;&starf;&starf;&starf;&starf;</label><br><br>
+  </div>
+  <label for="review">Review:</label><br>
+  <textarea id="review" name="review" rows="3" cols="35" style="font-size: 0.8em; border-radius: 10px;"></textarea><br><br>
+  <input type="button" value=" Submit " onclick="addReview()" style="font-size: 1.1em; border-radius: 6px;"><br><br>
+</form>
+
+<hr  style="opacity: 0.2; margin-left: 130px; margin-right: 130px;">
+
+<table id="reviewTable" >
+    <h1 style="font-size: 54px; text-align: left; margin-top: 30px; margin-left: 150px;">Reviews Table</h1>  <tr>
+    <th>Name</th>
+    <th>Rating</th>
+    <th>Review</th>
+  </tr>
+</table>
+<hr width="60%" style="margin-left: 8.2%; color: #ddd; opacity: 0.8;">
+<br><br>
+    
+    <footer>
+    <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+    </footer>
+
+    <script src="spotlight.js"></script>
+</body>
+</html>

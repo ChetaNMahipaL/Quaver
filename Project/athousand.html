@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(linkinsongs.png);
+          background-position-y: 50px;
+      }
+  </style>
+	<title>A Thousand Suns</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Linkin Park/A thousand Suns1.jpg" style="box-shadow: 8px 8px 12px rgb(149, 149, 151);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(255, 255, 255, 0.823); font-size: 50px;">A THOUSAND SUNS</p>
+      <p style="margin-top: 30px;">6 Songs 18 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Waiting for The End</div>03:52
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Waiting for The End">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="03:52">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>        
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Wretches And Kings</div>04:11
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wretches And Kings">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="04:11">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+          </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Fallout</div>01:23
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Fallout">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="01:23">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Iridescent</div>04:57
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Iridescent">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="04:57">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+          </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Wisdom, Justice And Love</div>01:39
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Wisdom, Justice And Love">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="01:39">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. The Requiem</div>02:01
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="The Requiem">
+          <input type="hidden" name="album_name" value="A Thousand Suns">
+          <input type="hidden" name="duration" value="02:01">
+          <input type="hidden" name="artist" value="Linkin Park">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+          </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="songs.css" />
+    <style>
+      body {
+          background-image: url(EDbg.png);
+          background-position-y: 35px;
+      }
+  </style>
+	<title>Divide</title> 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><img class="logo-img" src="logo.png" width="65" height="65" ALT="align box" ALIGN=CENTER>   Quaver</div>
+      <ul class="nav">
+        <li>
+          <a href="index.html#">Home</a>
+        </li>
+        <li>
+          <a href="artist.html#">Artists</a>
+        </li>
+        <li>
+          <a href="search.html">Search</a>
+        </li>
+        <li>
+          <a href="spotlight.html">Artist Spotlight</a>
+        </li>
+        <li>
+          <a href="playlistpage.html">Playlist</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- ####################################################################################################################################### -->
+      
+      <img class="my-img" src="Ed Shreen/dividesong.png" style="box-shadow: 8px 8px 12px rgba(10, 216, 231, 0.5);">
+
+      <div class="my-txt">
+      <p style="margin-top: 100px;">Album</p>
+      <p style="color: rgba(31, 133, 222, 0.823); font-size: 50px;">DIVIDE</p>
+      <p style="margin-top: 30px;">9 Songs 34 Minutes</p>
+      </div>
+      
+      <p style="margin-left: 180px; clear: left;"><button class="play-button"></button></p>
+      
+      <br>
+      <hr style="width:89%;margin: 0 auto;opacity: .25;">
+      <br>
+      <br>
+      
+      <img src="clock.png" width="47" height="50" style="position: absolute; top: 475px; right: 325px;">
+      
+
+      <div class="song">
+        <div class="mysongs">1. Castle on The Hill</div>04:21
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Castle on The Hill">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="04:21">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">2. Shape Of You</div>03:53
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Shape Of You">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:53">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">3. Galway Girl</div>02:50
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Galway Girl">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="02:50">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">4. Perfect</div>04:23
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Perfect">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="04:23">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">5. Happier</div>03:27
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Happier">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:27">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">6. Eraser</div>03:47
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Eraser">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:47">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">7. Dive</div>03:58
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="Dive">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:58">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">8. New Man</div>03:09
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="New Man">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:09">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <div class="song">
+        <div class="mysongs">9. What Do I Know?</div>03:57
+        <form method="post" action="http://127.0.0.1:5000/add_song" onsubmit="addToPlaylist(event)">
+          <input type="hidden" name="song_name" value="What Don I Know?">
+          <input type="hidden" name="album_name" value="Divide">
+          <input type="hidden" name="duration" value="03:57">
+          <input type="hidden" name="artist" value="Ed Sheeran">
+          <button type="submit" class="add-to-playlist">Add to playlist</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved. | Website developed by AC Coders | <a href="about.html">About Us</a></p>
+        </footer>
+        <script src="scripthome.js"></script>
+        <script src="addplaylist.js"></script>
+
+<!-- ####################################################################################################################################### -->
+
+
+</body>
+</html>
